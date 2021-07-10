@@ -115,11 +115,13 @@ img{
 
 @media(max-width:700px){
     .container{
-        max-height: 100px;
-        font-size: 72px;
-        width: 504px;
-        padding-bottom: 250px;
-        
+      max-height: 161px;
+    font-size: 72px;
+    width: 504px;
+    padding-bottom: 250px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
         
 }
 body{

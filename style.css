@@ -110,3 +110,24 @@ img{
     width:370vh;
     background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("images/photo-1429734956993-8a9b0555e122.jpg");
 }
+
+
+
+@media(max-width:700px){
+    .container{
+        max-height: 100px;
+        font-size: 52px;
+        width: 535px;
+        height: 414px;
+      padding-bottom: -29px;
+        
+}
+body{
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: 0;
+    bottom: -15px;
+ 
+}
+}

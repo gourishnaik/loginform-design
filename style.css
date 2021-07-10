@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    
+}
+
+.tittle{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 10px;
+}
+.container{
+    position: relative;
+    width:100%;
+    overflow: hidden;
+    background-color: white;
+    min-height: 100vh;
+}
+.forms-container{
+    position:absolute;
+    width: 70%;
+    height: 100%;
+    top:0;
+    left:0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.input-field{
+    max-width: 309px;
+    width: 66%;
+    height: 82px;
+    margin: 24px 42px;
+    border-radius: -24px;
+    display: grid;
+    position: relative;
+    padding: 9px 0.4rem;
+    background-color:lightyellow
+}
+
+.input-field i{
+    line-height: -46px;
+    padding-left: -55px;
+    color:black;
+    font-size: 1.3rem;
+}
+.input-field input{
+    background:none;
+    outline: none;
+    border:none;
+    font-weight: 300;
+    font-size: 1.2rem;
+    color:#333;
+}
+.btn{
+    width: 150px;
+    height: 49px;
+    outline: none;
+    border:none;
+    border-radius: 48px;
+    background-color: #20dbc2;
+    color:white;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin:10px 0;
+    transition: all 0.1s;
+}
+.btn:hover{
+    background-color: darkgreen;
+}
+.social-text{
+    padding: 0.7rem 0;
+    font-size: 16px;
+    color: white;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+.social-icon{
+    height: -41px;
+    width: 66px;
+    text-decoration: none;
+    color:wheat;
+    display: flex;
+    font-size: 1.6rem;
+    align-items: center;
+    transition: all 0.5s;
+    margin-bottom: 4px;
+}
+.social-icon:hover{
+    color:blue;
+}
+img{
+    width:380vh;
+    height: 100vh;
+}
+
+.container{
+    height: 100vh;
+    width:370vh;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("images/photo-1429734956993-8a9b0555e122.jpg");
+}

@@ -116,10 +116,10 @@ img{
 @media(max-width:700px){
     .container{
         max-height: 100px;
-        font-size: 52px;
-        width: 535px;
-        height: 414px;
-      padding-bottom: -29px;
+        font-size: 72px;
+        width: 504px;
+        padding-bottom: 250px;
+        
         
 }
 body{
